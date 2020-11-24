@@ -5,7 +5,7 @@
 [Notas en Notion](https://www.notion.so/Preparando-el-Entorno-de-Desarrollo-a5926b2e6c2248ac83144bb459ea701a)
 
 ### sábado, 21 de noviembre de 2020 16:35
-He agregado la primer vista correctamente y el menu de navegacion con elementos de bootstrap y las imagenes del ejervcicio. Tambien actualizo en git hub practicando desde la consola.
+He agregado la primer vista correctamente y el menu de navegacion con elementos de bootstrap y las imagenes del ejercicio. Tambien actualizo en git hub practicando desde la consola.
 
 ### viernes, 20 de noviembre de 2020 23:50
 He realizado la redirecion de la carpeta template con el codigo:
