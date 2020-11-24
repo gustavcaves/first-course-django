@@ -1,3 +1,29 @@
 {% include 'views/default/header.html' %}
-<h1>Paste Bin and Crow and Crow</h1>
+{% load static %}
+<div class="sheetSlider sh--default">
+    <input id="s1" type="radio" name="slide1" checked />
+    <input id="s2" type="radio" name="slide1" />
+    <input id="s3" type="radio" name="slide1" />
+    <input id="s4" type="radio" name="slide1" />
+    <input id="s5" type="radio" name="slide1" />
+    <input id="s6" type="radio" name="slide1" />
+    <input id="s7" type="radio" name="slide1"  />
+    <input id="s8" type="radio" name="slide1" />
+    <input id="s9" type="radio" name="slide1" />
+    <input id="s10" type="radio" name="slide1" />
+
+    <div class="sh__content">
+        <!-- Slider Item -->
+        <div class="sh__item">
+            <img class="imgSlider" src="{% static 'images/UWP.png' %}" alt="imgText" />
+            <!-- Item Info -->
+            <div class="sh__meta">
+                <h4>UWP</h4>
+                <span>Curso de app para la plataforma universal de Windows UWP C#
+                    <a href="#urlPage">with link</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
 {% include 'views/default/footer.html' %}
