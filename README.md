@@ -12,7 +12,7 @@
 
 
 ### domingo, 29 de noviembre de 2020 0:29
-Que dificil seguirle el ritmo a estas video clases, demaiadas repetitivas las explicaciones. Claro que esto usando Djando y lo sigue repitiendo. Rrrggg | En esta ocacion pase del slider que no me salio, le dedique tiempo pero no funciono, asi que pase al siguiente poner al about, 404 y el login. No actualizo nota en notion. Volvieldo a usar git y aprendiendo mas de sus usos.
+Que dificil seguirle el ritmo a estas video clases, demasiadas repetitivas las explicaciones. Claro que esto usando Djando y lo sigue repitiendo. Rrrggg | En esta ocacion pase del slider que no me salio, le dedique tiempo pero no funciono, asi que pase al siguiente poner al about, 404 y el login. No actualizo nota en notion. Volvieldo a usar git y aprendiendo mas de sus usos.  
 
 ### sábado, 21 de noviembre de 2020 16:35
 He agregado la primer vista correctamente y el menu de navegacion con elementos de bootstrap y las imagenes del ejercicio. Tambien actualizo en git hub practicando desde la consola.
