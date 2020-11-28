@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+<title>Slider CSS</title>
+<meta http-equiv="ContentType" content="text/html; charset=utf-8"/>
+
+<style>
+ul, li { padding: 0; margin: 0;
+list-style: none inside;
+}
+ul.slider {
+position: relative;
+}
+ul.slider li {
+opacity: 0;
+transition: opacity .5s;
+position: absolute;
+left: 0px; top: 0px; margin: 50px; padding: 50px;
+border: 2px solid red;
+background: #fff;
+}
+ul.slider li:first-child {
+opacity: 1;
+}
+ul.slider li:target {
+opacity: 1;
+}
+nav {
+position: relative;
+top: 200px;
+left: 50px;
+}
+body, html {
+padding: 0; margin: 0; width: 100vw; height: 100vh;
+overflow:hidden;
+}
+
+ul, li {
+box-sizing: border-box;
+}
+ul.slider {
+padding: 30px;
+}
+ul.slider li { width: 100vw; height: 100vh; margin: 0;
+padding: 0; border: 0;
+background-color: gray;
+opacity: 0;
+transition: opacity .5s;
+padding-top: 30vh;
+serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sansfont-weight: bold;
+font-size: calc( 1.5rem + 1vw );
+text-align: center;
+}
+#slide1 {
+background-color: #D30E92;
+color: #fff;
+fontfamily: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet
+MS', sa ns-serif
+}
+#slide2 {
+background-color: #048BA8;
+color: #fff;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
+#slide3 {
+background-color: #2CE0AA;
+color: #00324b;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+} 
+#slide4 {
+background-color: #EFEA5A;
+color: #08415C;
+font-family: 'Courier New', Courier, monospace
+}
+#slide5 {
+background-color: #F29E4C;
+color: #00008B;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida
+Grande',
+'Lucida Sans', Arial, sans-serif
+}
+nav {
+width: 100vw; position: absolute; top: auto;
+right: 0; bottom: 0; left: 0;
+background: #f1f2f3;
+}
+nav ul {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+nav ul li { display: flex; flex-grow: 1; flex-wrap: wrap;
+box-sizing: border;
+}
+nav a {
+background: #03191E;
+font-size: calc( 1.2rem + 1vw );
+text-decoration: none; font-weight: bold; color: #941C2F;
+font-family:cursive;
+line-height: 1.8;
+flex-grow: 1;
+text-align: center;
+border-top: 5px solid #03191E; border-right: 1px solid
+#03191E ; flex-wrap: wrap;
+position: relative;
+} 
+nav li:last-child a {
+border-right: 0;
+}
+nav a:hover {
+background-color: #00324b;
+color: #fff;
+border-top-color: #2CE0AA;
+}
+nav a:active {
+border-top-color: #f90;
+background: #f90;
+color: #00324b;
+}
+</style>
+
+</head>
+
+<body>
+    <ul class="slider">
+    <li id="slide1">Siempre parece imposible</li>
+    <li id="slide2">hasta que se hace </li>
+    <li id="slide3">La motivacion</li>
+    <li id="slide4">es lo que te pone en marcha</li>
+    <li id="slide5">el hábito es lo que hace que sigas</li> 
+
+    <nav>
+        <ul class="menu" >
+            <li><a href="#slide1">Pagina 1</a></li>
+            <li><a href="#slide2">Pagina 2</a></li>
+            <li><a href="#slide3">Pagina 3</a></li>
+            <li><a href="#slide4">Pagina 4</a></li>
+            <li><a href="#slide5">Pagina 5</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

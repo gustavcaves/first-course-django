@@ -18,6 +18,7 @@ from django.urls import path
 from Usuarios.Controllers.IndexControllers import IndexController
 
 urlpatterns = [
-    path('', IndexController.index, name='index')
-    # path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='login'),
+    path('', IndexController.index, name='index'),
+    path('/about', IndexController.about, name='about')
 ]
