@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from Usuarios.Controllers.IndexController import IndexController
 urlpatterns = [
-    #Obtenemos los parametro que se ingresan a traves de la url para ejcutar las vista segun el parametro
+    path('admin/', admin.site.urls, name="login"),
     path('', IndexController.index, name='index'),
-   # path('admin/', admin.site.urls),
+    path('/about', IndexController.about, name='about')
 ]
