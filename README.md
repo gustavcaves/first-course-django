@@ -11,6 +11,10 @@
 - git push -u origin1      
 
 
+### lunes, 30 de noviembre de 2020 23:55
+He tenido que realizar un cambio de version de djando a la 2.1.5 para seguir el ritmo de los videos XD.
+Tambien estoy en proceso creando la conexion a la base de datos migrarla a mysql y he documentado el paso anterior.
+
 ### domingo, 29 de noviembre de 2020 0:29
 Que dificil seguirle el ritmo a estas video clases, demasiadas repetitivas las explicaciones. Claro que esto usando Djando y lo sigue repitiendo. Rrrggg | En esta ocacion pase del slider que no me salio, le dedique tiempo pero no funciono, asi que pase al siguiente poner al about, 404 y el login. No actualizo nota en notion. Volvieldo a usar git y aprendiendo mas de sus usos.  
 

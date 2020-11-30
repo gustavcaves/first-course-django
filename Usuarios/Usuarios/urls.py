@@ -1,7 +1,7 @@
 """Usuarios URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.1/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Usuarios.Controllers.IndexControllers import IndexController
-
+from Usuarios.Controllers.IndexController import IndexController
 urlpatterns = [
-    path('admin/', admin.site.urls, name='login'),
+    #Obtenemos los parametro que se ingresan a traves de la url para ejcutar las vista segun el parametro
     path('', IndexController.index, name='index'),
-    path('/about', IndexController.about, name='about')
+   # path('admin/', admin.site.urls),
 ]
