@@ -7,17 +7,15 @@ body.login {
 .login #header {
     height: auto;
     padding: 5px 16px;
-    text-align: center;
 }
 
 .login #header h1 {
     font-size: 18px;
-    color: #fff;
 }
 
-/*.login #header h1 a {
+.login #header h1 a {
     color: #fff;
-}*/
+}
 
 .login #content {
     padding: 20px 20px 0;
@@ -26,21 +24,20 @@ body.login {
 .login #container {
     background: #fff;
     border: 1px solid #eaeaea;
-    border-radius: 6px;
+    border-radius: 4px;
     overflow: hidden;
-    width: 100%;
+    width: 28em;
     min-width: 300px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .login #content-main {
     width: 100%;
-    padding: 20px 20px 20px;
 }
 
 .login .form-row {
     padding: 4px 0;
-    float: center;
+    float: left;
     width: 100%;
     border-bottom: none;
 }
@@ -52,17 +49,10 @@ body.login {
     clear: both;
     color: #333;
 }
-.form-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -5px;
-    margin-left: 0px; 
-}
+
 .login .form-row #id_username, .login .form-row #id_password {
     clear: both;
-    padding: 5px;
+    padding: 8px;
     width: 100%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
@@ -76,21 +66,13 @@ body.login {
 
 .login .submit-row {
     clear: both;
-    padding: 20px 0px 0px;
+    padding: 1em 0 0 9.4em;
     margin: 0;
     border: none;
     background: none;
-    text-align: center;
+    text-align: left;
 }
 
 .login .password-reset-link {
     text-align: center;
-}
-.errornote{
-    padding: 20px 20px 0px;
-}
-@media (min-width: 768px) {
-    .login #container {
-        width: 30%;
-    }
 }

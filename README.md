@@ -12,6 +12,9 @@
 
 ## Comentarios
 
+### martes, 1 de diciembre de 2020 13:40
+He realizado la configuracion del login, y aparece segun lo esperado del manual.
+
 ### martes, 1 de diciembre de 2020 0:42
 He creado la conxion con la base de datos mysql, he corregido el error de la pagina, el superusuario, la migracion. Vaya lo que me ha tocado hacer, tambien he descargado los videos para ver por vcl mas rapidamente y sin tener que abrir la web que me toma mucho tiempo en abrir y buscar el link del video en el que voy.
 
