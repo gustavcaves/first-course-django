@@ -13,7 +13,7 @@
 ## Comentarios
 
 ### martes, 8 de diciembre de 2020 19:48
-Le doy muerte a este repositorio, es una caca seguir los videos de este tío https://www.youtube.com/c/AlexPagoada/
+Le doy muerte a este repositorio, es una complicado seguir los videos de este tío https://www.youtube.com/c/AlexPagoada/
 Repetidera de la repetidera en explicaciones y no se le entiende por la mala estructuracion de la misma. Tengo que replicar hasta los errores, ver en que punto hay que corregir por que comte errores en la marcha y de los que se da cuenta 4 videos mas tarde, perdiendo tiempo repitiendo videos de 20 o 15 min por algo que se puede explicar en menos de 5 min. Deberia mejorar la forma de explicar. **No le niego que sabe el asunto tecnico pero las explicaciones no dan para entender.**
 
 ### martes, 1 de diciembre de 2020 13:40
